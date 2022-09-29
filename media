@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Data atual  : 29/09/2022
+
+Var
+
+n1, n2, n3, n4: real
+media: real
+
+Inicio
+
+escreval ("digite a nota do 1� bimestre")
+ leia (n1)
+ escreval ("digite a nota do 2� bimestre")
+ leia (n2)
+  escreval ("digite a nota do 3� bimestre")
+ leia (n3)
+  escreval ("digite a nota do 4� bimestre")
+ leia (n4)
+
+media <- ((n1 + n2 + n3 + n4)/4)
+
+
+ SE (media >= 5) e (MEDIA = 9) entao
+escreval ("aluno aprovado com", media, " de m�dia")
+senao
+escreval ("aluno reprovado com", media, " de m�dia")
+fimse
+
+  SE (media = 10)entao
+  LIMPATELA
+escreval ("aluno aporvado com", media, " de media. PARAB�NS")
+fimse
+Fimalgoritmo
